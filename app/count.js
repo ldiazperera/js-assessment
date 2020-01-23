@@ -15,7 +15,7 @@ exports.countAnswers = {
 
     return {
       cancel: function () {
-        timeout && clearTimeout(timeout);
+        clearTimeout(timeout);
       }
     };
   }
